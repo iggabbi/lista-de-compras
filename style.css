@@ -34,10 +34,11 @@ main {
 
 main img {
     max-width: 1000px;
-    width: 100%;
+    width: 300px;
     height: auto;
     display: block;
     border-radius: 8px;
+    margin-bottom: 30px;
 }
 
 /* Título "Lista de Compras" */
@@ -160,3 +161,4 @@ input[type="checkbox"] {
     height: 20px;
     cursor: pointer;
 }
+
