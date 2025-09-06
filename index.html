@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <title>Compras</title>
+</head>
+<body>
+    <main>
+        <img src="Imagens/sacola.png" alt="sacola de compras"/>
+
+        <!-- Cria uma caixa de entrada para digitar itens na lista -->
+        <form>
+            <input class="input-item" id="input-item" type="text" placeholder="Digite o item que deseja adicionar"/>
+            <button class="button-item" id="adicionar-item" type="button">Salvar item</button>
+        </form>
+
+        <!-- Região onde serão exibidos os itens adcionados na lista -->
+         <div class="container-lista">
+            <h2 class="titulo-lista">Lista de Compras</h2>
+            <hr class="linha-imagem"/>
+            <ul id="lista-de-compras">
+                <li class="mensagem-lista-vazia">Não há nenhum item na lista.</li>
+            </ul>
+         </div>
+    </main>
+
+    <!-- module permite que os scripts possam ser divididos em arquivos -->
+     <script type="module" src="index.js"></script>
+</body>
+</html>
